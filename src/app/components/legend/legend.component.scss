@@ -1,0 +1,63 @@
+.legend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0,0,0,0.1);
+
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 12px;
+
+    border-radius: 4px;
+    gap: 24px;
+}
+//  *{
+//      border:solid 1px rgb(177, 146, 146);
+    
+//  }
+
+
+.legend .legend-item h4 {
+    text-align: center;
+
+}
+.legend .legend-item{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.legend-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   gap: 12px;
+
+}
+.legend-image {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.legend .legend-item .legend-images img {
+   
+    
+    @media (min-width: 1380px) { 
+        .legend .legend-item .legend-images img {
+            width: 100px;
+        
+        } 
+    
+    }
+}  
+.card-image {
+    width: 100px;
+
+}

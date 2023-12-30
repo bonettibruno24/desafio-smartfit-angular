@@ -1,0 +1,97 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-start;
+
+    padding: 12px;
+    border-radius: 8px;
+
+    background-color: rgba(0,0,0,0.1);
+
+    box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.15);
+    -webkit-box-shadow: -1px 2px 72px -29px rgba(51,51,51,0.15);
+    -moz-box-shadow: -1px 2px 72px -29px rgba(51,51,51,0.15);
+
+    gap: 8px;
+
+	
+
+    width: 250px;
+   height: 420px;
+    //grid-template-columns: 1fr 1fr
+}
+
+// *{
+//     border:solid 1px rgb(231, 148, 148);
+   
+// }
+.card .divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--light-grey);
+}
+
+.card span{
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--red);
+}
+.card span.opened {
+    color: var(--green);
+}
+.card h3 {
+    color: var(--dark-grey);
+    font-size: 24px;
+    font-weight: bold;
+    //display: none;
+
+}
+.card p {
+    color: var(--light-grey);
+    font-size: 14px;
+}
+.comodts {
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    gap: 10px;
+  
+}
+.card ul {
+    flex-direction: row;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.card li{
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    //align-items:flex-start;
+
+    color: var(--dark-grey);
+    font-weight: 500px;
+    font-size: 12px;
+
+  
+}
+.card li b {
+    font-size: 16px;
+    color: var(--light-grey);
+}
+
+.card img {
+    height: 50px;
+}
+@media (max-width: 600px) {
+    .card {
+      max-width: 100%;
+    }
+  }
+  
+
+    
+
+   

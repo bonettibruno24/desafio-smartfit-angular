@@ -1,0 +1,78 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+
+    gap: 30px;
+    /* espaço entre a logo e text */
+
+}
+
+header .logo-container {
+    background-color: black;
+    padding: 24px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .text-container {
+    //display: flex;//
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+header .logo-container img {
+    height: 100px;
+
+
+}
+
+header .text-container h1 {
+    font-size: 34px;
+    color: var(--dark-grey);
+
+}
+
+header .text-container p {
+    color: var(--light-grey);
+    padding-left: 10%;
+
+
+}
+
+.heading {
+    display: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 8%;
+    padding-right: 8%;
+
+
+    margin-bottom: 24px;
+
+
+
+
+
+}
+
+.heading-border {
+
+    width: 8%;
+    height: 15px;
+    background-color: var(--dark-grey);
+    margin-bottom: 1.5rem;
+    margin-top: 1rem; // rem- unidade de medida relativa ao tamanha do documento//
+
+}
